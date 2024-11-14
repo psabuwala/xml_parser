@@ -22,7 +22,7 @@ This Project is for validate xml data and save the data in the mysql
 
 #### Parse & Save XML data
  
-- MethodType: Post
+- MethodType: POST
 - URL: http://localhost:8080/iapps/epaper
 - Body: Upload XML in request body with variable name "xmlFile"
 - CURL:
@@ -50,7 +50,7 @@ curl --location 'http://localhost:8080/iapps/epaper' --form 'xmlFile=@"/D:/Admin
 
 
 #### Find all
-- MethodType: Post
+- MethodType: GET
 - URL: http://localhost:8080/iapps/epaper?pageNo=1&sortColumn=width&sortOrder=DESC&search=asd
 - CURL:
 ```curl
@@ -87,7 +87,7 @@ Description:
 
 
 #### Get by Id
-- MethodType: Post
+- MethodType: GET
 - URL: http://localhost:8080/iapps/epaper/1
 - CURL:
 ```curl
