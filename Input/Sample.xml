@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<epaperRequest xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <deviceInfo name="string" id="string">
+    <screenInfo width="4680" height="832" dpi="153" />
+    <osInfo name="string" version="143250.234905804" />
+    <appInfo>
+      <newspaperName>ASD</newspaperName>
+      <version>3400250.2349058</version>
+    </appInfo>
+  </deviceInfo>
+  <getPages editionDefId="244" publicationDate="1975-02-04" />
+</epaperRequest>
